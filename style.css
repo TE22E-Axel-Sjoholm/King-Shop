@@ -1,0 +1,20 @@
+header{
+    display: grid;
+    background-color: #797979;
+    height: 127px; 
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+h1{
+    font-size: 60px;
+    width: 280px;
+    margin: auto;
+    margin-left: 10px;
+    font-family: "Kings";
+    font-weight: 100;
+}
+header img{
+    height: 107px;
+    margin: auto;
+    margin-right: 10px;
+}
