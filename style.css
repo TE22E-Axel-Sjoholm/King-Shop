@@ -866,10 +866,13 @@ footer{
         grid-column-start: 1;
         grid-column-end: 4;
     }
-    .atc6 img{
+    .atc6 img {
         width: 124px;
         height: 35px;
-        padding-left: 50px;
+    }
+    .atc6 button{
+        width: 124px;
+        margin-left: 40px;
     }
     .atc6{
         grid-row-start: 3;
@@ -896,4 +899,9 @@ footer{
     .mail{
        margin: auto;
     }
+}
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
 }
