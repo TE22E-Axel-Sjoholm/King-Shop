@@ -765,7 +765,6 @@ footer{
     .atc3 img{
         width: 124px;
         height: 35px;
-        padding-left: 22px;
     }
     .atc3{
         padding-left: 50px;
@@ -817,10 +816,10 @@ footer{
     .atc5 img{
         width: 124px;
         height: 35px;
-        padding-left: 40px;
+        
     }
     .atc5{
-        padding-left: 50px;
+        
         grid-row-start: 3;
         grid-row-end: 5;
         grid-column-start: 2;
@@ -873,6 +872,18 @@ footer{
     .atc6 button{
         width: 124px;
         margin-left: 40px;
+    }
+    .atc5 button{
+        width: 124px;
+        margin-left: 75px;
+    }
+    .atc4 button{
+        width: 124px;
+        margin-right: 10px;
+    }
+    .atc3 button{
+        width: 124px;
+        margin-left: 8px;
     }
     .atc6{
         grid-row-start: 3;
