@@ -684,16 +684,20 @@ footer{
         margin: auto;
     }
     .atc{
-        width: 124px;
         grid-row-start: 4;
         grid-row-end: 5;
+    }
+    .atc img {
+        width: 124px;
         margin: auto;
     }
     .atc1{
-        width: 124px;
         grid-row-start: 4;
         grid-row-end: 5;
+    }
+    .atc1 img{
         margin: auto;
+        width: 124px;
     }
     .ps5{
         grid-column-start: 3;
@@ -916,12 +920,15 @@ footer{
     footer{
         width:auto;
         background-color: #D9D9D9;
-        height: 112px;
+        height: fit-content;
         text-align: center;
         align-items: center;
         margin: auto;
         margin-top: 10px;
         padding-top: 10px;
+    }
+    footer button{
+        height: 100px;
     }
     .mail{
        margin: auto;
@@ -931,4 +938,12 @@ button{
     border: none;
     background: none;
     cursor: pointer;
+}
+footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+footer button{
+    width: 100%;
+    background-color: gray;
 }

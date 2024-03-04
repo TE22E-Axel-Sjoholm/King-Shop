@@ -9,11 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kings&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Script&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>King Shop</h1>
-        <img id="knapp" src="img/kisspng-computer-icons-shopping-cart-shopping-cart-decoration-5ae1d7b85ac7e8.6820508115247502643719.webp" alt="Shopping cart">
+            <img src="img/kisspng-computer-icons-shopping-cart-shopping-cart-decoration-5ae1d7b85ac7e8.6820508115247502643719.webp" alt="Shopping cart">
     </header>
     <main>
         <div class="whyus">
@@ -29,7 +30,7 @@
             </div>
             <img class="img1" src="/img/kisspng-battery-charger-hdmi-electrical-cable-usb-black-charging-line-5aa34b5ff37593 (1).webp" alt="">
             <div class="atc">
-            <button onclick="">
+            <button onclick="additem('USB-C Cable', 10)">
                 <img src="/img/addtocart.webp" alt="">
             </button>
             </div>
@@ -39,7 +40,7 @@
             </div>
             <img class="img2" src="img/kisspng-ac-adapter-playstation-4-usb-dualshock-mortal-kombat-x-en-solde-fnac-en-news-ps4-gamers-5bb0.webp" alt="">
             <div class="atc1">
-            <button onclick="">
+            <button onclick="additem('USB-Micro Cable', 10)">
                 <img src="/img/addtocart.webp" alt="">
             </button>
             </div>
@@ -55,14 +56,14 @@
                 <p>$450</p>
             </div>
             <div class="atc4">
-                <button onclick="">
+                <button onclick="additem('Playstation 5', 450)">
                     <img src="/img/addtocart.webp" alt="">
                 </button>
             </div>
         </div>
         <div class="xbox">
             <div class="xboximg">
-                <img src="/img/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.webp" alt="xbox series X">
+                <img src="/img/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.webp" alt="Xbox series X">
             </div>
             <div class="xboxtext">
                 <h2>Xbox series X</h2>
@@ -71,7 +72,7 @@
                 <p>$650</p>
             </div>
             <div class="atc3">
-                <button onclick="">
+                <button onclick="additem('Xbox series X', 650)">
                     <img src="/img/addtocart.webp" alt="">
                 </button>
             </div>
@@ -87,7 +88,7 @@
                 <p>$100</p>
             </div>
             <div class="atc5">
-                <button onclick="">
+                <button onclick="additem('Wii Console', 100)">
                     <img src="/img/addtocart.webp" alt="">
                 </button>
             </div>
@@ -103,7 +104,7 @@
                 <p>$350</p>
             </div>
             <div class="atc6">
-                <button onclick="">
+                <button onclick="additem('Nintendo Switch', 350)">
                     <img src="/img/addtocart.webp" alt="">
                 </button>
             </div>
@@ -113,6 +114,7 @@
             <div id="cart">
 
             </div>
+            <button>Check out</button>
     </footer>
 </body>
 </html>
