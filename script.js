@@ -22,5 +22,6 @@ function varukorg() {
 }   
 
 function clear() {
-    cart.lenght = 0;
+    cart.lenght = [0];
+    varukorg();
 }
