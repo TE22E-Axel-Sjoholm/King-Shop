@@ -21,3 +21,6 @@ function varukorg() {
     });
 }   
 
+function clear() {
+    cart.lenght = 0;
+}

@@ -930,9 +930,6 @@ footer{
     footer button{
         height: 100px;
     }
-    .mail{
-       margin: auto;
-    }
 }
 button{
     border: none;
